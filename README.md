@@ -28,7 +28,7 @@ Using Docker containers offer us some nice advantages!
 * Windows and MacOS users have higher overhead
 
 # Getting started
-To get started, [install docker on your system](00-install)
+To get started, [install docker on your system](tutorials/00-install)
 
 ## Tutorials
-1. Running an image
+1. [Running an image](tutorials/01-running-an-image)
