@@ -32,3 +32,4 @@ To get started, [install docker on your system](tutorials/00-install)
 
 ## Tutorials
 1. [Running an image](tutorials/01-running-an-image)
+1. [Building an image](tutorials/02-building-an-image)
