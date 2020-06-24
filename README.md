@@ -36,3 +36,10 @@ To get started, [install docker on your system](tutorials/00-install)
 1. [Running an image - Part 2](tutorials/03-running-an-image-part-2)
 1. [Working with filesystems](tutorials/04-working-with-filesystems)
 1. [Optimizing images](tutorials/05-optimizing-images)
+1. [Docker Hub](tutorials/06-docker-hub)
+
+## What's next?
+Now that we've started with Docker, we've opened up some interesting options for how to use it.  Any or all of these
+can be used with Docker, or with Docker-like concepts, and might help you solve some problem.
+* Kubernetes - an orchestration and management engine for Docker images
+* Docker Compose - a tool for running more complex, multi-container applications in Docker

@@ -152,7 +152,9 @@ out of an image that includes `ffmpeg` based on Alpine (this helps avoid having 
 
 The real meat of this is the first line, `FROM golang:alpine as build-env`, which specifies our first base image with
 a given name, and then inside of the second `FROM` the `COPY` line contains `--from=build-env`.  We are telling Docker
-to use this as the source rather than our host machine.
+to use this as the source rather than our host machine.  From this, we end up with a base image that only contains the
+necessities, nothing needed to build (even golang itself isn't included in the final result, thanks to the way golang
+produces binaries).
 
 There are more steps we can take to optimize things, but these are good first steps, and will hopefully lay a good
 foundation.
